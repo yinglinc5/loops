@@ -1,12 +1,11 @@
 function getNumbersInRange(start,end){
-   let result = [""];
-    let i = start;
-   for (i < end){
-    i++;
-        getNumbersInRange.push("i");
+   let results = [];
+   for (let i = start; i <= end;  i++){
+        
+      results.push(i);
    }
+   console.log(results);
 }
-   console.log(result);
 
 console.log(getNumbersInRange(1, 5));  // [1, 2, 3, 4, 5]
 console.log(getNumbersInRange(10, 10)); // [10]
