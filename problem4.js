@@ -1,11 +1,14 @@
 
+let letter = 0
+let 
 const vowel = ["a", "e", "i", "o", "u"]
 function countVowels(str) {
-for (let i = 0; i < str.length; i++){
+for (let i = 0; z < str.length; i++){
 if (vowel.includes(str[i])){
-
+letter++
 }
 }
+console.log(letter)
 }
 
 
