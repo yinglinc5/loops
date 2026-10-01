@@ -15,11 +15,11 @@ function Gamble(q){
             m3++; play++; count++; q--;
             if(m3 % 10 === 0){q= q + 9}}
         else if (play === 3){
-            play =0
+            play = 0
         }
         }
    console.log(`Martha plays ${count} times before going broke.`)
 }
 
-console.log(Gamble(77));
+console.log(Gamble(100));
  
