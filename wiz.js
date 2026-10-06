@@ -5,6 +5,7 @@ function Wiz(N, Start, Battle){
         if(owner === Battle[i][1]){
             owner === Battle[i][0];
             time++;
+        
         }
     }
 }
